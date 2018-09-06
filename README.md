@@ -10,3 +10,10 @@ Description of various files:
 3. nalu_div.py: Implementation of NALU for dividion task. Very poor result so far. MSE reducing with increase in number of training samples.
 
 4. nalu_neg.py: Task of nalu.py for both negative and positive flaot values. Very poor results on both addition and multiplication, despite increasing no. of training samples. The MSE doesn't decrease after a certain value. Results on extrapolation are even worse.
+
+
+To run any file: 
+  python3 filename.py
+  
+ Prerequisite: tensorflow and numpy
+
